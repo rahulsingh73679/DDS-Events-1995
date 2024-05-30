@@ -2603,6 +2603,28 @@
             --lineHeight: 1.3;
         }
 
+        [data-prefix="viwec_template_single"] .entry-header .page-title {
+            --fontSize: 30px;
+        }
+
+        [data-prefix="viwec_template_single"] .entry-header .entry-meta {
+            --fontWeight: 600;
+            --textTransform: uppercase;
+            --fontSize: 12px;
+            --lineHeight: 1.3;
+        }
+
+        [data-prefix="viwec_template_archive"] .entry-header .page-title {
+            --fontSize: 30px;
+        }
+
+        [data-prefix="viwec_template_archive"] .entry-header .entry-meta {
+            --fontWeight: 600;
+            --textTransform: uppercase;
+            --fontSize: 12px;
+            --lineHeight: 1.3;
+        }
+
         [data-prefix="ha_library_single"] .entry-header .page-title {
             --fontSize: 30px;
         }
@@ -2745,6 +2767,26 @@
         }
 
         [data-prefix="search"] .entry-card {
+            background-color: var(--paletteColor8);
+            --box-shadow: 0px 12px 18px -6px rgba(34, 56, 101, 0.04);
+        }
+
+        [data-prefix="viwec_template_archive"] .entries {
+            --grid-template-columns: repeat(3, minmax(0, 1fr));
+        }
+
+        [data-prefix="viwec_template_archive"] .entry-card .entry-title {
+            --fontSize: 20px;
+            --lineHeight: 1.3;
+        }
+
+        [data-prefix="viwec_template_archive"] .entry-card .entry-meta {
+            --fontWeight: 600;
+            --textTransform: uppercase;
+            --fontSize: 12px;
+        }
+
+        [data-prefix="viwec_template_archive"] .entry-card {
             background-color: var(--paletteColor8);
             --box-shadow: 0px 12px 18px -6px rgba(34, 56, 101, 0.04);
         }
@@ -2942,6 +2984,11 @@
             --box-shadow: 0px 12px 18px -6px rgba(34, 56, 101, 0.04);
         }
 
+        [data-prefix="viwec_template_single"] [class*="ct-container"]>article[class*="post"] {
+            --has-boxed: var(--false);
+            --has-wide: var(--true);
+        }
+
         [data-prefix="ha_library_single"] [class*="ct-container"]>article[class*="post"] {
             --has-boxed: var(--false);
             --has-wide: var(--true);
@@ -3010,6 +3057,9 @@
                 --grid-template-columns: repeat(2, minmax(0, 1fr));
             }
             [data-prefix="search"] .entries {
+                --grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+            [data-prefix="viwec_template_archive"] .entries {
                 --grid-template-columns: repeat(2, minmax(0, 1fr));
             }
             [data-prefix="ha_library_archive"] .entries {
@@ -3109,6 +3159,12 @@
             [data-prefix="search"] .entry-card .entry-title {
                 --fontSize: 18px;
             }
+            [data-prefix="viwec_template_archive"] .entries {
+                --grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
+            [data-prefix="viwec_template_archive"] .entry-card .entry-title {
+                --fontSize: 18px;
+            }
             [data-prefix="ha_library_archive"] .entries {
                 --grid-template-columns: repeat(1, minmax(0, 1fr));
             }
@@ -3161,10 +3217,10 @@
             t.src = "https://nitroscripts.com/ctPNXgMIpXfoiviyrCgDmSrxunEiHuKd", t.async = !0, t.id = "nitro-script", document.head.appendChild(t)
         })();
     </script>
-    <link rel="icon" href="https://indianscholar.in/wp-content/uploads/2024/05/cropped-Untitled-design-8-32x32.png" sizes="32x32" />
-    <link rel="icon" href="https://indianscholar.in/wp-content/uploads/2024/05/cropped-Untitled-design-8-192x192.png" sizes="192x192" />
-    <link rel="apple-touch-icon" href="https://indianscholar.in/wp-content/uploads/2024/05/cropped-Untitled-design-8-180x180.png" />
-    <meta name="msapplication-TileImage" content="https://indianscholar.in/wp-content/uploads/2024/05/cropped-Untitled-design-8-270x270.png" />
+    <link rel="icon" href="https://indianscholar.in/wp-content/uploads/2024/05/cropped-5359f56f-8109-439b-a851-0711ac03972e-32x32.png" sizes="32x32" />
+    <link rel="icon" href="https://indianscholar.in/wp-content/uploads/2024/05/cropped-5359f56f-8109-439b-a851-0711ac03972e-192x192.png" sizes="192x192" />
+    <link rel="apple-touch-icon" href="https://indianscholar.in/wp-content/uploads/2024/05/cropped-5359f56f-8109-439b-a851-0711ac03972e-180x180.png" />
+    <meta name="msapplication-TileImage" content="https://indianscholar.in/wp-content/uploads/2024/05/cropped-5359f56f-8109-439b-a851-0711ac03972e-270x270.png" />
     <style id="wp-custom-css">
         /** Start Block Kit CSS: 136-3-fc37602abad173a9d9d95d89bbe6bb80 **/
 
